@@ -1,0 +1,32 @@
+# Doc: https://www.mkdocs.org/user-guide/configuration/
+
+site_name: "Django Jazz"
+site_description: "Django Jazz is a philosophy for Django to play its magic."
+site_author: "Pascal Polleunus <pascal+github@polleunus.be>"
+repo_url: https://github.com/djazz/django-jazz
+repo_name: "GitHub: djazz/django-jazz"
+extra:
+  # Version of the documentation (usually the same as the project without the `patch` part).
+  version: 0.1
+
+nav:
+  - Home: index.md
+
+theme:
+  name: material  # Doc: https://squidfunk.github.io/mkdocs-material/
+  palette:
+    scheme: slate
+    primary: teal
+    accent: yellow
+
+# Ref: https://squidfunk.github.io/mkdocs-material/reference/abbreviations/
+# Ref: https://python-markdown.github.io/extensions/
+markdown_extensions:
+  - admonition
+
+plugins:
+  - search
+
+# Relative to this file.
+docs_dir: ../docs
+site_dir: build

@@ -1,0 +1,13 @@
+# Read the Docs configuration file.
+# Doc: https://docs.readthedocs.io/en/stable/config-file/
+
+version: 2
+
+mkdocs:
+  configuration: docsmk/mkdocs.yml
+
+# Available versions: https://docs.readthedocs.io/en/stable/config-file/v2.html#build-image
+python:
+  version: 3.8
+  install:
+    - requirements: docsmk/requirements.txt
