@@ -1,7 +1,0 @@
-# Packages to be installed to generate the documentation.
-# Doc: https://pip.pypa.io/en/stable/user_guide/#requirements-files
-
-mkdocs           # https://github.com/mkdocs/mkdocs
-mkdocs-material  # https://github.com/squidfunk/mkdocs-material
-
-pip  # To upgrade it automatically.
