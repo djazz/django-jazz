@@ -28,5 +28,5 @@ plugins:
   - search
 
 # Relative to this file.
-docs_dir: ../docs
-site_dir: build
+docs_dir: docs
+site_dir: docs-build

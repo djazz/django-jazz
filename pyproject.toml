@@ -22,7 +22,10 @@ python = "^3.9"
 
 # DEPENDENCIES: DEVELOPMENT ========================================================================
 [tool.poetry.dev-dependencies]
+mkdocs = "^1.1"                        # https://github.com/mkdocs/mkdocs
+mkdocs-material = "^6.2"               # https://github.com/squidfunk/mkdocs-material
 
 
 # DEPENDENCIES: EXTRAS =============================================================================
 [tool.poetry.extras]
+docs = ["mkdocs", "mkdocs-material"]
