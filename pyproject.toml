@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "django_jazz"
+version = "0.1.0"
+description = "Django Jazz is a philosophy for Django to play its magic."
+authors = ["Pascal Polleunus <pascal@polleunus.be>"]
+repository = "https://github.com/djazz/django-jazz"
+readme = "README.md"
+
+[tool.poetry.urls]
+"Documentation" = "https://django-jazz.readthedocs.io"
+"Bug Tracker" = "https://github.com/djazz/django-jazz/issues"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+# DEPENDENCIES =====================================================================================
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+# DEPENDENCIES: DEVELOPMENT ========================================================================
+[tool.poetry.dev-dependencies]
+
+
+# DEPENDENCIES: EXTRAS =============================================================================
+[tool.poetry.extras]
